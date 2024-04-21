@@ -18,7 +18,9 @@ header{
 }
 
 h1{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: "Jacquard 24", system-ui;
+    font-weight: 400;
+    font-style: normal;
     text-align: left;
     font-size: 3em;
     text-align: center;
@@ -44,7 +46,7 @@ nav.TopNav ul {
 }
 
 nav.TopNav li {
-    float: left;
+    float: left;  
 }
 
 nav.TopNav li a {
@@ -66,7 +68,6 @@ section#leftColumn {
     clear: left;
     float: left;
     padding: 1.5em;
-    width: 33%;
 }
 section#leftColumn img {
     display: block;
@@ -133,7 +134,6 @@ section#rightColumn img {
 footer {
     color: white;
     font-weight: lighter;
-    text-align: left;
     background-color: rgb(63, 63, 63);
     text-align: center;
     padding-top: 5px;
@@ -156,4 +156,3 @@ a:active {
     color: blue;
     text-decoration: underline;
 }
-

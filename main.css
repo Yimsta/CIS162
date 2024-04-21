@@ -64,7 +64,6 @@ li a:hover {
 /* Left Column Styles */
 
 section#leftColumn {
-    display: block;
     clear: left;
     float: left;
     padding: 1.5em;
